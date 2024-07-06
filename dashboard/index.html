@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Dashboard</title>
+
+    <link rel="stylesheet" href="/src/input.css" />
+  </head>
+  <body class="bg-black font-Poppins">
+    <main class="grid grid-cols-12 h-dvh mx-40 my-5">
+      <!-- sidebar  -->
+      <nav class="col-span-3 bg-black border-gray-500 p-16 mt-4">
+        <!-- user   -->
+        <div class="relative mb-24">
+          <!-- user img  -->
+          <div>
+            <img src="/assets/userImg.svg" class="rounded-lg mb-5" alt="" />
+          </div>
+          <!-- user info  -->
+          <div>
+            <h3 class="font-semibold text-white text-3xl">Samantha</h3>
+            <p class="font-normal text-lg text-[#9f9f9f]">samantha@email.com</p>
+          </div>
+          <!-- user notifications  -->
+          <div class="absolute -top-4 left-14">
+            <p
+              class="text-white size-7 bg-[#dc3434] rounded-2xl text-center font-semibold text-base"
+            >
+              4
+            </p>
+          </div>
+        </div>
+        <!-- menu -->
+        <div
+          class="list-none font-semibold text-2xl text-[#9f9f9f] flex gap-8 flex-col"
+        >
+          <li>Dashboard</li>
+          <li class="text-white">Expenses</li>
+          <li>Wallets</li>
+          <li>Summary</li>
+          <li>Accounts</li>
+          <li>Settings</li>
+        </div>
+      </nav>
+
+      <!-- rest part (content)  -->
+      <section class="col-span-9 bg-white rounded-2xl">
+        <div class="grid grid-cols-12">
+          <!-- expense details -->
+          <div class="col-span-8 h-dvh px-28 py-16">
+            <!-- expense heading and user img -->
+            <div class="flex justify-between">
+              <div class="space-y-4">
+                <h1 class="font-semibold text-5xl leading-10 tracking-wide">
+                  Expenses
+                </h1>
+                <p class="text-[#888888] font-normal text-base">
+                  01 - 25 March, 2020
+                </p>
+              </div>
+
+              <!-- user img  -->
+              <div class="flex justify- gap-3">
+                <div class="flex -space-x-2">
+                  <!-- image 1  -->
+                  <div class="relative inline-block z-30">
+                    <img
+                      class="size-10 rounded-full border-2 border-white"
+                      src="/assets/groupImg-1.jpg"
+                      alt="Avatar 1"
+                    />
+                  </div>
+                  <!-- image 2  -->
+                  <div class="relative inline-block z-20">
+                    <img
+                      class="size-10 rounded-full border-2 border-white"
+                      src="/assets/groupImg-2.png"
+                      alt="Avatar 1"
+                    />
+                  </div>
+
+                  <!-- image 3  -->
+                  <div class="relative inline-block z-10">
+                    <img
+                      class="size-10 rounded-full border-2 border-white"
+                      src="/assets/groupImg-3.png"
+                      alt="Avatar 1"
+                    />
+                  </div>
+                </div>
+
+                <!-- user plus icon  -->
+                <div class="mt-1">
+                  <img src="/assets/plusIcon.svg" class="size-8" alt="" />
+                </div>
+              </div>
+            </div>
+
+            <!-- bar chart  -->
+            <div class="flex items-end gap-2 py-14">
+              <div class="h-9 w-6 bg-[#157AFF] opacity-20"></div>
+              <div class="h-14 w-6 bg-[#157AFF] opacity-20"></div>
+              <div class="h-11 w-6 bg-[#157AFF] opacity-20"></div>
+              <div class="h-7 w-6 bg-[#157AFF] opacity-20"></div>
+              <div class="h-9 w-6 bg-[#157AFF] opacity-20"></div>
+              <div class="h-7 w-6 bg-[#157AFF] opacity-20"></div>
+              <div class="h-11 w-6 bg-[#157AFF] opacity-20"></div>
+              <div class="h-7 w-6 bg-[#157AFF] opacity-20"></div>
+              <div class="h-9 w-6 bg-[#157AFF] opacity-20"></div>
+              <div class="h-14 w-6 bg-[#157AFF] opacity-20"></div>
+              <div class="h-11 w-6 bg-[#157AFF] opacity-20"></div>
+              <div class="h-7 w-6 bg-[#157AFF] opacity-20"></div>
+              <div class="h-9 w-6 bg-[#157AFF] opacity-20"></div>
+              <div class="h-8 w-6 bg-[#157AFF] opacity-20"></div>
+              <div class="h-11 w-6 bg-[#157AFF] opacity-20"></div>
+              <div class="h-7 w-6 bg-[#157AFF] opacity-20"></div>
+              <div class="h-9 w-6 bg-[#157AFF] opacity-20"></div>
+              <div class="h-14 w-6 bg-[#157AFF] opacity-20"></div>
+              <div class="h-11 w-6 bg-[#157AFF] opacity-20"></div>
+              <div class="h-7 w-6 bg-[#157AFF] opacity-20"></div>
+              <div class="h-8 w-6 bg-[#157AFF] opacity-20"></div>
+              <div class="h-16 w-6 bg-[#157AFF]"></div>
+              <div class="h-11 w-6 bg-[#157AFF] opacity-20"></div>
+            </div>
+
+            <!-- today content  -->
+            <div>
+              <!-- heading  -->
+              <div class="flex justify-between">
+                <h3 class="font-semibold text-xl">Today</h3>
+                <img src="/assets/3dot.svg" alt="" />
+              </div>
+              <hr class="w-full my-4" />
+
+              <!-- todays content  -->
+              <div class="space-y-7">
+                <!-- grocery -->
+                <div class="flex justify-between items-center">
+                  <div class="flex gap-5">
+                    <img src="/assets/grocery.svg" alt="" />
+                    <div class="space-y-1">
+                      <h3 class="font-medium text-base">Grocery</h3>
+                      <p class="text-[#a0a4a8] font-normal text-sm">
+                        5.12 pm <span class="mx-2 font-bold"> . </span> Belanja
+                        di pasar
+                      </p>
+                    </div>
+                  </div>
+                  <div class="font-semibold text-right text-base">
+                    <p>-326.800</p>
+                  </div>
+                </div>
+                <!-- transportation -->
+                <div class="flex justify-between items-center">
+                  <div class="flex gap-5">
+                    <img src="/assets/transport.svg" alt="" />
+                    <div class="space-y-1">
+                      <h3 class="font-medium text-base">Grocery</h3>
+                      <p class="text-[#a0a4a8] font-normal text-sm">
+                        5.12 pm <span class="mx-2 font-bold"> . </span> Naik bus
+                        umum
+                      </p>
+                    </div>
+                  </div>
+                  <div class="font-semibold text-right text-base">
+                    <p>-15.000</p>
+                  </div>
+                </div>
+                <!-- housing -->
+                <div class="flex justify-between items-center">
+                  <div class="flex gap-5">
+                    <img src="/assets/housing.svg" alt="" />
+                    <div class="space-y-1">
+                      <h3 class="font-medium text-base">Housing</h3>
+                      <p class="text-[#a0a4a8] font-normal text-sm">
+                        5.12 pm <span class="mx-2 font-bold"> . </span> Bayar
+                        Listrik
+                      </p>
+                    </div>
+                  </div>
+                  <div class="font-semibold text-right text-base">
+                    <p>-185.750</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- date content  -->
+            <div class="my-10">
+              <!-- heading  -->
+              <div class="flex justify-between">
+                <h3 class="font-semibold text-xl">Monday, 23 March 2020</h3>
+                <img src="/assets/3dot.svg" alt="" />
+              </div>
+              <hr class="w-full my-4" />
+
+              <!-- date content  -->
+              <div class="space-y-7">
+                <!-- food and drink -->
+                <div class="flex justify-between items-center">
+                  <div class="flex gap-5">
+                    <img src="/assets/foodAndDrink.svg" alt="" />
+                    <div class="space-y-1">
+                      <h3 class="font-medium text-base">Food and Drink</h3>
+                      <p class="text-[#a0a4a8] font-normal text-sm">
+                        5.12 pm <span class="mx-2 font-bold"> . </span> Makan
+                        Steak
+                      </p>
+                    </div>
+                  </div>
+                  <div class="font-semibold text-right text-base">
+                    <p>-156.000</p>
+                  </div>
+                </div>
+
+                <!-- entertainment -->
+                <div class="flex justify-between items-center">
+                  <div class="flex gap-5">
+                    <img src="/assets/entertainment.svg" alt="" />
+                    <div class="space-y-1">
+                      <h3 class="font-medium text-base">Entertainment</h3>
+                      <p class="text-[#a0a4a8] font-normal text-sm">
+                        5.12 pm <span class="mx-2 font-bold"> . </span> Nonton
+                        Bioskop
+                      </p>
+                    </div>
+                  </div>
+                  <div class="font-semibold text-right text-base">
+                    <p>-35.750</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- where your money go section  -->
+          <div class="col-span-4 bg-[#f9fafc] rounded-r-2xl p-16">
+            <h2 class="text-lg font-semibold mb-8">Where your money go?</h2>
+
+            <!-- expense progress bar -->
+            <div class="flex flex-col justify-evenly gap-8">
+              <!-- progress bar info 1 -->
+              <div class="space-y-2">
+                <div class="flex justify-between items-center">
+                  <p class="font-medium text-[15px] tracking-wide">
+                    Food and Drinks
+                  </p>
+                  <p class="font-normal text-[15px]">872.400</p>
+                </div>
+                <!-- process bar -->
+                <div class="w-full bg-[#ECEFF5] rounded-full h-1">
+                  <div
+                    class="bg-[#31BA96] h-1 text-center text-white text-sm font-semibold w-4/12 rounded-lg"
+                  ></div>
+                </div>
+              </div>
+
+              <!-- progress bar info 2 -->
+              <div class="space-y-2">
+                <div class="flex justify-between items-center">
+                  <p class="font-medium text-[15px] tracking-wide">Shopping</p>
+                  <p class="font-normal text-[15px]">1378.200</p>
+                </div>
+                <!-- process bar -->
+                <div class="w-full bg-[#ECEFF5] rounded-full h-1">
+                  <div
+                    class="bg-[#31BA96] h-1 text-center text-white text-sm font-semibold w-6/12 rounded-lg"
+                  ></div>
+                </div>
+              </div>
+
+              <!-- progress bar info 3 -->
+              <div class="space-y-2">
+                <div class="flex justify-between items-center">
+                  <p class="font-medium text-[15px] tracking-wide">housing</p>
+                  <p class="font-normal text-[15px]">928.500</p>
+                </div>
+                <!-- process bar -->
+                <div class="w-full bg-[#ECEFF5] rounded-full h-1">
+                  <div
+                    class="bg-[#31BA96] h-1 text-center text-white text-sm font-semibold w-5/12 rounded-lg"
+                  ></div>
+                </div>
+              </div>
+
+              <!-- progress bar info 4 -->
+              <div class="space-y-2">
+                <div class="flex justify-between items-center">
+                  <p class="font-medium text-[15px] tracking-wide">
+                    Transportation
+                  </p>
+                  <p class="font-normal text-[15px]">420.700</p>
+                </div>
+                <!-- process bar -->
+                <div class="w-full bg-[#ECEFF5] rounded-full h-1">
+                  <div
+                    class="bg-[#31BA96] h-1 text-center text-white text-sm font-semibold w-3/12 rounded-lg"
+                  ></div>
+                </div>
+              </div>
+
+              <!-- progress bar info 5 -->
+              <div class="space-y-2">
+                <div class="flex justify-between items-center">
+                  <p class="font-medium text-[15px] tracking-wide">Vehicle</p>
+                  <p class="font-normal text-[15px]">520.000</p>
+                </div>
+                <!-- process bar -->
+                <div class="w-full bg-[#ECEFF5] rounded-full h-1">
+                  <div
+                    class="bg-[#31BA96] h-1 text-center text-white text-sm font-semibold w-5/12 rounded-lg"
+                  ></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- tips section  -->
+            <div class="h-64 w-72 rounded-2xl bg-[#EDF0F6] mt-28 relative p-8">
+              <!-- img  -->
+              <div class="flex justify-between relative -top-16">
+                <img src="/assets/box.svg" alt="" /><img
+                  src="/assets/flower.svg"
+                  alt=""
+                />
+              </div>
+
+              <div class="-mt-10 space-y-2">
+                <h3 class="font-semibold text-base">Save your money</h3>
+                <p class="text-[#747a83] text-sm tracking-wide">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Magnam, temporibus.
+                </p>
+
+                <button
+                  class="w-52 h-11 bg-black text-white font-semibold text-sm tracking-wider rounded-lg"
+                >
+                  View Tips
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
