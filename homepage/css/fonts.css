@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+:root {
+  --fontWeight400: 400;
+  --fontWeight500: 500;
+  --fontWeight600: 600;
+  --fontWeight700: 700;
+
+  --fontStyle: normal;
+}
+/* Switzer variable */
+@font-face {
+  font-family: "switzer-400";
+  src: url("/assets/fonts/switzer-font/Switzer-Regular.ttf") format("truetype");
+  font-weight: var(--fontWeight400);
+  font-style: var(--fontStyle);
+}
+
+@font-face {
+  font-family: "switzer-500";
+  src: url("/assets/fonts/switzer-font/Switzer-Medium.ttf") format("truetype");
+  font-weight: var(--fontWeight500);
+  font-style: var(--fontStyle);
+}
+@font-face {
+  font-family: "switzer-600";
+  src: url("/assets/fonts/switzer-font/Switzer-Semibold.ttf") format("truetype");
+  font-weight: var(--fontWeight600);
+  font-style: var(--fontStyle);
+}

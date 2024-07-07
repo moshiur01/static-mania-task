@@ -1,0 +1,14 @@
+header {
+  background-color: transparent;
+}
+nav {
+  font-family: "switzer-400", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 100px;
+}
+
+nav ul {
+  display: flex;
+  gap: 14px;
+}
