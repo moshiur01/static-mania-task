@@ -1,14 +1,27 @@
 header {
-  background-color: transparent;
+  background-color: #1b3936;
+  background-image: url("../assets/img/common/box-pattern.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 nav {
-  font-family: "switzer-400", sans-serif;
+  font-family: "switzer-400";
+  font-weight: 400;
   display: flex;
   justify-content: space-between;
-  margin: 10px 100px;
+  padding: 30px 50px 0px 50px;
+  color: white;
+  font-size: 18px;
+  line-height: 23.76px;
+  text-align: center;
+}
+
+nav img {
+  cursor: pointer;
 }
 
 nav ul {
   display: flex;
-  gap: 14px;
+  gap: 40px;
+  cursor: pointer;
 }

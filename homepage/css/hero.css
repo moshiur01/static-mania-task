@@ -1,0 +1,59 @@
+#hero {
+  background-color: #1b3936;
+  background-image: url("../assets/img/common/box-pattern.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 92.33vh;
+  width: 100%;
+}
+
+#hero-title {
+  background-image: url("../assets/img/hero/hero-bg-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 1070px;
+  height: 724px;
+  margin: auto;
+  position: relative;
+}
+
+/* woods  */
+#hero h3 {
+  font-family: "boska-i-var";
+  font-weight: 400;
+  font-size: 262px;
+  line-height: 161.76px;
+  text-align: center;
+  color: white;
+  position: relative;
+  left: -50px;
+}
+
+/* cosy  */
+#hero h3:first-child {
+  top: 20px;
+}
+
+/* in the  */
+#hero p {
+  font-family: "boska-var";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 41.6px;
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 13px;
+}
+
+/* cabin */
+#hero h2 {
+  font-family: "boska-i-400", sans-serif;
+  font-size: 262px;
+  font-weight: 400;
+  line-height: 161.76px;
+  text-align: center;
+  color: #75ff69;
+  margin-top: 80px;
+  margin-left: 300px;
+}

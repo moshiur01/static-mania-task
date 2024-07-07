@@ -15,7 +15,7 @@
 
   --fontStyle: normal;
 }
-/* Switzer variable */
+/*  font Switzer */
 @font-face {
   font-family: "switzer-400";
   src: url("/assets/fonts/switzer-font/Switzer-Regular.ttf") format("truetype");
@@ -34,4 +34,46 @@
   src: url("/assets/fonts/switzer-font/Switzer-Semibold.ttf") format("truetype");
   font-weight: var(--fontWeight600);
   font-style: var(--fontStyle);
+}
+
+/*  font Boska */
+@font-face {
+  font-family: "boska-400";
+  src: url("/assets/fonts/boska-font/Boska-Regular.ttf") format("truetype");
+  font-weight: var(--fontWeight400);
+  font-style: var(--fontStyle);
+}
+@font-face {
+  font-family: "boska-400-var";
+  src: url("/assets/fonts/boska-font/Boska-Variable.ttf") format("truetype");
+  font-weight: var(--fontWeight400);
+  font-style: var(--fontStyle);
+}
+
+@font-face {
+  font-family: "boska-i-400";
+  src: url("/assets/fonts/boska-font/Boska-Italic.ttf") format("truetype");
+  font-weight: var(--fontWeight400);
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "boska-i-var";
+  src: url("/assets/fonts/boska-font/Boska-Variable.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "boska-500";
+  src: url("/assets/fonts/boska-font/Boska-Medium.ttf") format("truetype");
+  font-weight: var(--fontWeight500);
+  font-style: var(--fontStyle);
+}
+
+@font-face {
+  font-family: "boska";
+  src: url("/assets/fonts/boska-font/Boska-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "boska-var";
+  src: url("/assets/fonts/boska-font/Boska-Variable.ttf") format("truetype");
 }
