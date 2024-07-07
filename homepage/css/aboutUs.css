@@ -1,0 +1,138 @@
+#about-us-section {
+  background-color: var(--colorGreen);
+  margin-top: -3.7px;
+  background-image: url("/assets/img/common/box-pattern.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 1624px;
+}
+
+.about-us-img-section {
+  position: relative;
+}
+
+/* top-left-img */
+.top-left-img-gradient {
+  width: 401px;
+  height: 342px;
+  background-image: linear-gradient(to left, #1b3936, transparent);
+  opacity: 0.9;
+  position: absolute;
+  top: 289px;
+  left: 38px;
+  z-index: 1;
+}
+.about-top-left-img {
+  width: 401px;
+  height: 342px;
+  object-fit: cover;
+  position: relative;
+  top: 100px;
+  left: 38px;
+}
+
+/* .top-right-img */
+.top-right-img-gradient {
+  width: 401px;
+  height: 526px;
+  background-image: linear-gradient(to top, #1b3936, transparent);
+  opacity: 0.9;
+  position: absolute;
+  top: 81px;
+  left: 1383px;
+  z-index: 2;
+}
+.about-top-right-img {
+  width: 401px;
+  height: 526px;
+  position: relative;
+  object-fit: cover;
+  top: 76px;
+  left: 978px;
+  z-index: 1;
+}
+
+/* bottom-left-img */
+.bottom-left-img-gradient {
+  width: 401px;
+  height: 531px;
+  background-image: linear-gradient(to bottom, #1b3936, transparent);
+  opacity: 0.9;
+  position: absolute;
+  top: 880px;
+  left: 150px;
+  z-index: 3;
+}
+.about-bottom-left-img {
+  width: 401px;
+  height: 531px;
+  object-fit: cover;
+  position: relative;
+  top: 880px;
+  right: 660px;
+}
+
+/* bottom-right-img */
+.bottom-right-img-gradient {
+  width: 401px;
+  height: 531px;
+  background-image: linear-gradient(to bottom, #1b3936, transparent);
+  opacity: 0.9;
+  position: absolute;
+  top: 912px;
+  right: 207px;
+  z-index: 4;
+}
+.about-bottom-right-img {
+  width: 401px;
+  height: 531px;
+  object-fit: cover;
+  position: relative;
+  top: 912px;
+  left: 80px;
+}
+
+/* content  */
+.about-content {
+  width: 70%;
+  height: 880px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  position: relative;
+  top: -325px;
+  z-index: 5;
+}
+
+.about-content p {
+  color: var(--colorLime);
+  font-family: "switzer-var", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 31.68px;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+.about-content h2 {
+  width: 100%;
+  font-family: "boska-i-var", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 75px;
+  line-height: 88.4px;
+  text-align: center;
+  color: #678784;
+}
+
+.about-content span {
+  color: white;
+  text-transform: capitalize;
+}
+
+.about-intersect img {
+  width: 100%;
+  height: 113px;
+  position: relative;
+  bottom: -100px;
+}
