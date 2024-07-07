@@ -1,0 +1,14 @@
+:root {
+  --colorLime: #75ff69;
+  --colorGreen: #1b3936;
+  --colorGray: #678784;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

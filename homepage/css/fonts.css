@@ -1,12 +1,3 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
 :root {
   --fontWeight400: 400;
   --fontWeight500: 500;
@@ -21,6 +12,11 @@
   src: url("/assets/fonts/switzer-font/Switzer-Regular.ttf") format("truetype");
   font-weight: var(--fontWeight400);
   font-style: var(--fontStyle);
+}
+
+@font-face {
+  font-family: "switzer-var";
+  src: url("/assets/fonts/switzer-font/Switzer-Variable.ttf") format("truetype");
 }
 
 @font-face {

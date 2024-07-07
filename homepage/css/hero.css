@@ -3,7 +3,7 @@
   background-image: url("../assets/img/common/box-pattern.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 92.33vh;
+  height: 110vh;
   width: 100%;
 }
 
@@ -15,6 +15,7 @@
   height: 724px;
   margin: auto;
   position: relative;
+  top: 60px;
 }
 
 /* woods  */
@@ -27,6 +28,7 @@
   color: white;
   position: relative;
   left: -50px;
+  top: -35px;
 }
 
 /* cosy  */
@@ -35,7 +37,7 @@
 }
 
 /* in the  */
-#hero p {
+#hero-content-middle {
   font-family: "boska-var";
   font-weight: 700;
   font-size: 32px;
@@ -56,4 +58,18 @@
   color: #75ff69;
   margin-top: 80px;
   margin-left: 300px;
+}
+
+/* hero content  */
+.hero-content {
+  font-family: "switzer-var";
+  font-weight: 400;
+  font-size: 18px;
+  max-width: 30%;
+  line-height: 23.76px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  color: white;
+  text-align: center;
 }
