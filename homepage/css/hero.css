@@ -73,3 +73,15 @@
   color: white;
   text-align: center;
 }
+
+#hero-cirle {
+  position: absolute;
+  top: -50px;
+  left: 350px;
+}
+
+#playbtn {
+  position: absolute;
+  top: 466px;
+  right: 330px;
+}
