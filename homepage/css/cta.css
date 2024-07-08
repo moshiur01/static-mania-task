@@ -1,0 +1,92 @@
+#cta-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--colorGreen) url("/assets/img/common/box-pattern.png");
+  height: 100vh;
+}
+
+.cta-info-container {
+  width: 1494px;
+  height: 750px;
+  background-image: url("/assets/img/cta/backgroundImg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-text {
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+}
+
+.cta-text span {
+  color: var(--colorLime);
+}
+
+.cta-text h3 {
+  font-family: "boska-var";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 68px;
+  line-height: 88.4px;
+  text-align: center;
+  color: white;
+}
+
+.cta-heading {
+  margin-bottom: 100px;
+}
+
+/* paragarph ara  */
+.cta-heading p {
+  text-transform: none;
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+  margin-top: 50px;
+  color: white;
+  font-family: "switzer-var";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23.76px;
+  text-align: center;
+}
+
+/* cta input  */
+.cta-input input:first-child {
+  width: 400px;
+  height: 65px;
+  border: none;
+}
+
+.cta-input input:first-child:focus {
+  outline: none;
+}
+
+.cta-input input:first-child::placeholder {
+  color: #bbbbbb;
+  font-family: "switzer-var";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23.76px;
+  padding-left: 20px;
+}
+
+.cta-input input:last-child {
+  background-color: var(--colorLime);
+  width: 174px;
+  height: 65px;
+  position: relative;
+  top: 2px;
+  margin-left: -5px;
+  border: none;
+  font-family: "switzer-var";
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+}
