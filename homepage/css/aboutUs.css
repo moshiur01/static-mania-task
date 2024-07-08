@@ -107,7 +107,7 @@
 
 .about-content p {
   color: var(--colorLime);
-  font-family: "switzer-var", sans-serif;
+  font-family: "switzer-var";
   font-weight: 400;
   font-size: 30px;
   line-height: 31.68px;
@@ -116,7 +116,7 @@
 }
 .about-content h2 {
   width: 100%;
-  font-family: "boska-i-var", sans-serif;
+  font-family: "boska-i-var";
   font-weight: 400;
   font-style: italic;
   font-size: 75px;

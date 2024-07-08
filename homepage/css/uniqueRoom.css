@@ -1,0 +1,106 @@
+#unique-room {
+  width: 100%;
+  height: 1496px;
+}
+
+#unique-room h3 {
+  width: 784px;
+  height: 176px;
+  font-family: "boska-i-var";
+  font-weight: 400;
+  font-size: 68px;
+  line-height: 88.4px;
+  color: var(--colorGreen);
+  margin-top: 200px;
+  margin-left: 150px;
+  text-transform: capitalize;
+}
+
+#unique-room-img-container {
+  margin-top: 100px;
+  padding-left: 220px;
+  padding-right: 220px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.unique-room-single-img-container {
+  position: relative;
+  top: 80px;
+}
+
+.uniqueRoom-single-img {
+  width: 378px;
+  height: 505px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: all 700ms ease-out;
+}
+
+.unique-room-img-text p {
+  font-family: "boska-var";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 32.11px;
+  line-height: 41.75px;
+  text-align: justify;
+  position: absolute;
+  color: white;
+  bottom: 70px;
+  left: 40px;
+}
+
+.uniqueRoom-single-img:hover {
+  width: 582px;
+  height: 778.32px;
+  object-fit: cover;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+.unique-room-arrow {
+  display: none;
+  position: relative;
+  bottom: 230px;
+  right: -449px;
+}
+
+.unique-room-arrow-img-2 {
+  display: none;
+  position: relative;
+  bottom: 183px;
+  right: -449px;
+}
+
+.unique-room-img-text span {
+  display: none;
+}
+
+.unique-room-single-img-container:hover .unique-room-img-text p {
+  font-size: 68px;
+  font-weight: 500;
+  bottom: 180px;
+  width: 300px;
+  line-height: 1;
+}
+
+.unique-room-single-img-container:hover .unique-room-img-text span {
+  display: inline;
+  font-family: "switzer-var";
+  font-weight: 400;
+  font-size: 18px;
+  width: 381px;
+  height: 48px;
+  color: white;
+  position: absolute;
+  bottom: 110px;
+  left: 40px;
+}
+
+.unique-room-single-img-container:hover .unique-room-arrow {
+  display: inline-block;
+}
+.unique-room-single-img-container:hover .unique-room-arrow-img-2 {
+  display: inline-block;
+}

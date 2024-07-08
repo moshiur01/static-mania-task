@@ -12,7 +12,7 @@
 
 .info-right-area,
 .info-left-area {
-  font-family: "switzer-var", sans-serif;
+  font-family: "switzer-var";
   font-weight: 400;
   font-size: 24px;
   line-height: 31.68px;
@@ -36,14 +36,14 @@
 }
 
 .info-right-area h3 {
-  font-family: "boska-i-var", sans-serif;
+  font-family: "boska-i-var";
   font-weight: 700;
   font-size: 100px;
   line-height: 70px;
 }
 
 .info-right-area span {
-  font-family: "switzer-var", sans-serif;
+  font-family: "switzer-var";
   font-weight: 400;
   font-size: 24px;
   margin-left: -15px;
